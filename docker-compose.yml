@@ -1,0 +1,9 @@
+services:
+  orbitalfire:
+    build: .
+    ports:
+      - "7860:7860"
+    volumes:
+      - ./best_model.keras:/app/best_model.keras:ro
+    environment:
+      - GRADIO_SERVER_NAME=0.0.0.0

@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+# Modelos/treinos pesados (subir via Releases ou link se necessário)
+*.keras
+*.h5
+# Dataset (baixado do Kaggle, não versionar)
+wildfire-prediction-dataset/
+data/
