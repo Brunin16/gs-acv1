@@ -6,7 +6,6 @@
 
 > Integrantes:
 > - Bruno Eduardo Caputo Paulino — RM 558303
-> - _preencher demais integrantes (nome + RM)_
 
 Módulo de **Visão Computacional** do OrbitalFire: classifica imagens de satélite em
 `wildfire` (com indício de queimada) ou `nowildfire`, usando **duas CNNs treinadas do
