@@ -1,0 +1,12 @@
+services:
+  jupyter:
+    build:
+      context: .
+      dockerfile: Dockerfile.jupyter
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/app
+      # Monta o token do Kaggle (crie ~/.kaggle/kaggle.json com seu token)
+      - ${USERPROFILE}/.kaggle:/root/.kaggle:ro
+    working_dir: /app

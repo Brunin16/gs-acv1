@@ -1,14 +1,3 @@
-"""
-OrbitalFire / ACV - Demonstração funcional (Gradio).
-
-Carrega o melhor modelo treinado (best_model.keras) e classifica uma imagem
-de satélite enviada pelo usuário como 'wildfire' ou 'nowildfire'.
-
-Executar:
-    pip install -r requirements.txt
-    python app/app_gradio.py
-"""
-
 from pathlib import Path
 
 import numpy as np

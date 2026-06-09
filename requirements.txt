@@ -5,5 +5,4 @@ numpy>=1.24
 pandas>=2.0
 pillow>=10.0
 gradio>=4.0
-# opcional (download do dataset fora do Kaggle):
-# kagglehub>=0.2
+kagglehub>=0.2
