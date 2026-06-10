@@ -1,12 +1,3 @@
-"""
-OrbitalFire / ACV - Arquiteturas de CNN treinadas DO ZERO (sem pre-treino).
-
-Duas arquiteturas para classificacao binaria de imagens de satelite
-(wildfire x nowildfire), permitindo comparar como mudancas estruturais
-(profundidade, BatchNorm, GlobalAveragePooling, Dropout) afetam o resultado.
-
-Compatível com TensorFlow/Keras 2.x.
-"""
 
 from tensorflow.keras import layers, models
 
